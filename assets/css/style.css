@@ -1085,3 +1085,6 @@ header .submenu .line {
 	color: #565555;
 	letter-spacing: 0.8px;
 }
+.scroll .form-check {
+	text-align: center;
+}
