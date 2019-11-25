@@ -1053,6 +1053,13 @@ header .submenu .line {
     margin-left: 2px;
 }
 /* -- diagnostico -- */
+.list-group-item {
+	font-family: Montserrat-SemiBold;
+    font-size: 21px;
+    color: #FFFFFF;
+    letter-spacing: 0.8px;
+    text-align: center;
+}
 .list-group-item.active {
     z-index: 2;
     color: #fff;
