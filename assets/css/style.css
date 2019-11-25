@@ -189,7 +189,8 @@
 		color: #7C7C7C;
 		letter-spacing: 0;
 	}
-	.login .ingreso.registro .datos .form-group .form-control:focus {
+	.login .ingreso.registro .datos .form-group .form-control:focus,
+	.login .ingreso .datos .form-group .form-control:focus {
 		box-shadow: 0 0 6px #E4556E;
 	}
 	.login .ingreso.registro .datos .form-group .form-control {
