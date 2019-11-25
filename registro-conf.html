@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Meta -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/icons.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/icons2.css">
+		<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+	<!-- Bootstrap -->
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+	<title>Registro</title>
+</head>
+<body>
+	<div class="login">
+		<div class="background">
+			<img src="assets/img/img-background-2.png" class="background-lepra img-fluid">
+			<img src="assets/img/logo-lepra.png" class="logo img-fluid">
+		</div>
+		<div class="ingreso registro">
+			<div class="logo">
+				<img src="assets/img/logo-lepra.png" class="logo-g img-fluid">
+			</div>
+			<div class="datos">
+				<h2>Registro</h2>
+				<form>
+					<div class="form-group">
+					    <label for="formGroupExampleInput2">Nombre completo</label>
+					    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Nombre completo">
+					</div>
+					<div class="form-group">
+						<label for="formGroupExampleInput2">E-mail</label>
+					    <input type="mail" class="form-control" id="formGroupExampleInput2" placeholder="E-mail">
+					</div>
+					<div class="form-group">
+					    <label for="formGroupExampleInput2">Contraseña</label>
+					    <input type="password" class="form-control" id="formGroupExampleInput2" placeholder="Contraseña">
+					</div>
+				</form>
+				<div class="form-group form-check">
+				    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+				    <label class="form-check-label" for="exampleCheck1">Acepto los términos y condiciones</label>
+				</div>
+				<div class="button registrar">
+					<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalMail">Registrarse</button>
+				</div>
+
+			</div>
+		</div>
+		<!-- Modal -->
+		<div class="modal fade" id="modalMail" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+		  <div class="modal-dialog modal-dialog-centered" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		      	<div class="logo"><img src="assets/img/logo-lepra.png"></div>
+		        <h5 class="modal-title" id="exampleModalCenterTitle">¡Te registraste exitosamente!</h5>
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		      </div>
+		      <div class="modal-body">
+		        <p>¡Bienvenido/a! Ya podés comenzar tu capacitación sobre la Lepra</p>
+		      </div>
+		      <div class="modal-footer">
+		      	<!-- HREF A LA PROX PAGINA DE INICIO -->
+		        <button type="button" class="btn btn-secondary" data-dismiss="modal"><i class="icon-ok"></i>Comenzar</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+	</div>
+</body>
+</html>

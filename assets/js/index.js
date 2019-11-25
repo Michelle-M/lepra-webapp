@@ -1,0 +1,13 @@
+//Perfil
+$(document).ready(function(){
+	$(".content-user-image").click(function(){
+		$(".submenu").toggle(function(){
+			$('.submenu').addClass('active').removeClass('active');
+		});
+	});
+});
+$(document).ready(function(){
+	$("#lista").mouseenter(function(){
+		$("#sobre-lista").fadeOut();
+	});
+});
