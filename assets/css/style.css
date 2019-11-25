@@ -1009,3 +1009,14 @@ header .submenu .line {
     max-height: 420px;
     overflow: scroll;
 }
+/* -- checkbox fijo -- */
+.estado {
+	position: relative;
+}
+.circle-check {
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: #E4556E;
+}
