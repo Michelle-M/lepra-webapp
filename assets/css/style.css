@@ -1079,3 +1079,9 @@ header .submenu .line {
     letter-spacing: 0.8px;
     text-align: left;
 }
+.scroll p {
+	font-family: Montserrat-Regular;
+	font-size: 18px;
+	color: #565555;
+	letter-spacing: 0.8px;
+}
