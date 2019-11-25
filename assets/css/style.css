@@ -10,6 +10,10 @@
 	text-decoration: none;
 	color: #ffffff;
 }
+.diagnostico {
+	text-decoration: none;
+	color: #E4556E;
+}
 .login .background {
 	display: none;
 }
