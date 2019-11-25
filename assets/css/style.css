@@ -1056,7 +1056,7 @@ header .submenu .line {
 .list-group-item {
 	font-family: Montserrat-SemiBold;
     font-size: 21px;
-    color: #FFFFFF;
+    color: #E4556E !important;
     letter-spacing: 0.8px;
     text-align: center;
 }
