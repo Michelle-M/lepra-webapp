@@ -2,7 +2,7 @@
 /*font-family: 'Montserrat', sans-serif;*/
 
 /* -- Login -- */
-.login a {
+.login .button a {
 	text-decoration: none;
 	color: #ffffff;
 }
