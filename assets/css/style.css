@@ -390,6 +390,14 @@
 	background-color: #fbe8eb;
 	overflow: hidden;
 }
+.content-right.diag {
+	position: relative;
+	width: 22%;
+	height: 100vh;
+	float: right;
+	background-color: #fbe8eb;
+	overflow: hidden;
+}
 .content-right .logo-top {
 	text-align: center;
 	margin-top: 40px;
