@@ -1020,7 +1020,10 @@ header .submenu .line {
 }
 .content-left .content-data .card {
 	padding: 20px;
-	max-height: 800px; 
+	max-height: 800px;
+	background: #FFFFFF;
+    box-shadow: 0 2px 7px 0 rgba(174,171,171,0.50);
+    border-radius: 8px;
 }
 .content-left .content-data .card .scroll {
     max-height: 420px;
