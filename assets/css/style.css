@@ -824,6 +824,15 @@ header .submenu .line {
 	text-align: center;
 	position: relative;
 }
+.content-left .top .nav-items .nav-link .temario {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	color: #E4556E;
+	letter-spacing: 0;
+	text-align: center;
+	position: relative;
+}
 .content-left .top .nav-items a:hover {
 	color: #E4556E;
 }
@@ -837,7 +846,7 @@ header .submenu .line {
 	position: absolute;
 	bottom: 0;
 	width: 65px;
-	border: solid 1px #D8D8D8;
+	border: solid 2px #E4556E;
 	z-index: 2;
 }
 .content-left .top .line-completo {
