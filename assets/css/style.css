@@ -1019,4 +1019,8 @@ header .submenu .line {
 	height: 10px;
 	border-radius: 50%;
 	background: #E4556E;
+	top: 0;
+    left: 0;
+    margin-top: 9px;
+    margin-left: 2px;
 }
