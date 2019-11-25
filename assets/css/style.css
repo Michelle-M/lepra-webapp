@@ -1094,3 +1094,19 @@ header .submenu .line {
     color: #8F8E90;
     text-align: left;
 }
+.content-data .button .btn.btn-secondary.completo {
+	height: 45px;
+    background: #E4556E;
+    opacity: 1;
+    box-shadow: 0 0 17px 0 rgba(0,0,0,0.14);
+    border-radius: 8px 8px 8px 8px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: center;
+    border: 0;
+    width: 100%;
+    margin-top: 80px;
+}
