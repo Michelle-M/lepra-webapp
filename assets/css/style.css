@@ -1088,3 +1088,9 @@ header .submenu .line {
 .scroll .form-check {
 	text-align: center;
 }
+.scroll .form-check .form-check-label {
+	font-family: Montserrat-Regular;
+    font-size: 18px;
+    color: #8F8E90;
+    text-align: left;
+}
