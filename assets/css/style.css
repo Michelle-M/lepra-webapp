@@ -12,6 +12,10 @@
 }
 .diagnostico {
 	text-decoration: none;
+	color: #858383;
+}
+.diagnostico:hover {
+	text-decoration: none;
 	color: #E4556E;
 }
 .login .background {
