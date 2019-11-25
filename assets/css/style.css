@@ -1058,4 +1058,16 @@ header .submenu .line {
     color: #fff;
     background-color: #E4556E !important;
     border-color: #E4556E !important;
+    font-family: Montserrat-SemiBold;
+    font-size: 21px;
+    color: #FFFFFF;
+    letter-spacing: 0.8px;
+    text-align: center;
+}
+#list-example a {
+	font-family: Montserrat-SemiBold;
+    font-size: 21px;
+    color: #E4556E;
+    letter-spacing: 0.8px;
+    text-align: center;
 }
