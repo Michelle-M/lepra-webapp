@@ -1052,3 +1052,10 @@ header .submenu .line {
     margin-top: 9px;
     margin-left: 2px;
 }
+/* -- diagnostico -- */
+.list-group-item.active {
+    z-index: 2;
+    color: #fff;
+    background-color: #E4556E;
+    border-color: #E4556E;
+}
