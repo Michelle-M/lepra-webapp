@@ -1053,7 +1053,8 @@ header .submenu .line {
     margin-left: 2px;
 }
 /* -- diagnostico -- */
-.list-group-item-action {
+.list-group-item.b,
+.list-group-item.c {
 	font-family: Montserrat-SemiBold;
     font-size: 21px;
     color: #E4556E !important;
